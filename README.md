@@ -1,49 +1,50 @@
+
 # ww2pyfile
-For contest
-# Event Management System
+Для конкурса
+# Система управления событиями
 
-This is a simple command-line event management system built with Python and SQLite. It allows users to add events, search for events, and view statistics about events and participants.
+Это простая система управления событиями из командной строки, созданная с помощью Python и SQLite. Она позволяет пользователям добавлять события, искать события и просматривать статистику о событиях и участниках.
 
-## Features
+## Возможности
 
-- Add new events with date, name, and participants
-- Search for events by keyword and/or date
-- View statistics about events and participants
-- SQLite database for persistent storage
+- Добавление новых событий с указанием даты, имени и участников
+- Поиск событий по ключевому слову и/или дате
+- Просмотр статистики о событиях и участниках
+- База данных SQLite для постоянного хранения
 
-## Requirements
+## Требования
 
 - Python 3.x
 - SQLite3
 
-## Usage
+## Использование
 
-To use the program, run the `test.py` file with Python and use the following commands:
+Чтобы использовать программу, запустите файл `test.py` с помощью Python и используйте следующие команды:
 
-Available options:
+Доступные параметры:
 
-- `--add <date> <name> [participants...]`: Add a new event
-- `--search [keyword] [date]`: Search for events
-- `--stats`: Show statistics
-- `--help`: Show help message
+- `--add <date> <name> [participants...]`: Добавить новое событие
+- `--search [keyword] [date]`: Поиск событий
+- `--stats`: Показать статистику
+- `--help`: Показать справочное сообщение
 
-### Examples
+### Примеры
 
-1. Add a new event:
-   python test.py --add 2023-05-15 "Birthday Party" John Mary
+1. Добавление нового события:
+python test.py --add 2023-05-15 "Birthday Party" John Mary
 
-2. Search for events by keyword:
-   python test.py --search "Birthday"
+2. Поиск событий по ключевому слову:
+python test.py --search "Birthday"
 
-3. Search for events by date:
-   python test.py --search 2023-05
+3. Поиск событий по дате:
+python test.py --search 2023-05
 
-4. Search for events by keyword and date:
-   python test.py --search "Birthday" 2023-05
+4. Поиск событий по ключевому слову и дате:
+python test.py --search "День рождения" 2023-05
 
-5. Show statistics:
-   python test.py --stats
+5. Показать статистику:
+python test.py --stats
 
-## License
+## Лицензия
 
-This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
+Этот проект лицензирован в соответствии с лицензией Apache License 2.0. Подробности см. в файле [LICENSE](LICENSE).
